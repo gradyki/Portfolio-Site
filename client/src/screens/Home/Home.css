@@ -2,3 +2,9 @@
   display: flex;
   justify-content: center;
 }
+
+.carousel-container {
+  background-color: var(--tone2);
+  border-top: 1px solid var(--tone1);
+  border-bottom: 1px solid var(--tone1);
+}

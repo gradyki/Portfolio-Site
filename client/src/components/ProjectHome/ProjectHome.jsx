@@ -10,12 +10,14 @@ import Button from "@material-ui/core/Button";
 import skillz from "../../assets/Skillz.png";
 import weather from "../../assets/Weather.png";
 import expenses from "../../assets/Expenses.png";
+import { shadows } from "@material-ui/system";
 
 const useStyles = makeStyles({
   root: {
     width: 350,
     height: 550,
     margin: 50,
+    boxShadow: "0 3px 5px 2px rgb(0, 119, 182)",
   },
   media: {
     height: 250,
@@ -40,9 +42,11 @@ export default function ProjectHome() {
                 title="Skillz App"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Technology
-                </Typography>
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="h2"
+                ></Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   Skills is a Full Stack/Full CRUD mock elearning platform with
                   full authentication. It is built with a Ruby on
@@ -50,12 +54,14 @@ export default function ProjectHome() {
                   to browse the site, but authenticated users are able to login,
                   post new courses, edit and delete coures.
                 </Typography>
-                <Button size="small" color="primary">
-                  See Code
-                </Button>
-                <Button size="small" color="primary">
-                  Visit Site
-                </Button>
+                <div className="home-buttons">
+                  <Button size="small" color="primary">
+                    See Code
+                  </Button>
+                  <Button size="small" color="primary">
+                    Visit Site
+                  </Button>
+                </div>
               </CardContent>
             </CardActionArea>
             <CardActions></CardActions>
@@ -78,18 +84,16 @@ export default function ProjectHome() {
                   This weather app is a React app using the weatherstack.com
                   free api to gather current weather data. There is a built in
                   search bar at the top that will allow users to search any
-                  location for current weather. I styled this site using
-                  Bootstrap and converted all the dates and times to laocal and
-                  Celsius reading to Fahrenheit. There is also some conditional
-                  rendering depending on if the city search is during night or
-                  daytime hours.
+                  location for current weather.
                 </Typography>
-                <Button size="small" color="primary">
-                  See Code
-                </Button>
-                <Button size="small" color="primary">
-                  Visit Site
-                </Button>
+                <div className="home-buttons">
+                  <Button size="small" color="primary">
+                    See Code
+                  </Button>
+                  <Button size="small" color="primary">
+                    Visit Site
+                  </Button>
+                </div>
               </CardContent>
             </CardActionArea>
             <CardActions></CardActions>
@@ -114,14 +118,17 @@ export default function ProjectHome() {
                   types including a type select and uses the data to fill in the
                   table. All of the categories are sortable with onClick
                 </Typography>
-                <Button size="small" color="primary">
-                  See Code
-                </Button>
-                <Button size="small" color="primary">
-                  Visit Site
-                </Button>
+                <div className="home-buttons">
+                  <Button size="small" color="primary">
+                    See Code
+                  </Button>
+                  <Button size="small" color="primary">
+                    Visit Site
+                  </Button>
+                </div>
               </CardContent>
             </CardActionArea>
+
             <CardActions></CardActions>
           </Card>
         </div>

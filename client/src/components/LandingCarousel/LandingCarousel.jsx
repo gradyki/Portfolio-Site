@@ -21,19 +21,24 @@ class LandingCarousel extends Component {
     const { images } = this.state;
 
     return (
-      <Carousel breakPoints={breakPoints}>
-        {images.map((image) => (
-          <div key={image.id} className="image-container">
-            <img src={`${image.photo}`} id="carousel-imgs" />
-            <div className="image-text">
-              {image.textLocation}
-              <br></br>
-              <i class="fa fa-rub" aria-hidden="true"></i>
-              {image.textPrice}
+      <div className="carousel-comp-container">
+        <div className="carousel-title">
+          <h1>Top Skills</h1>
+        </div>
+        <Carousel breakPoints={breakPoints}>
+          {images.map((image) => (
+            <div key={image.id} className="image-container">
+              <img src={`${image.photo}`} id="carousel-imgs" />
+              <div className="image-text">
+                {image.textLocation}
+                <br></br>
+                <i class="fa fa-rub" aria-hidden="true"></i>
+                {image.textPrice}
+              </div>
             </div>
-          </div>
-        ))}
-      </Carousel>
+          ))}
+        </Carousel>
+      </div>
     );
   }
 }

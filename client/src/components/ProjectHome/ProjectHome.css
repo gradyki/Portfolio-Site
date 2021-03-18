@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   margin: 50px 0 50px 0;
+  color: var(--tone3);
+  font-family: "Roboto";
+  text-shadow: 2px 1px var(--tone2);
+  font-weight: 900;
 }
 
 .projects-cards-container {
@@ -10,8 +14,15 @@
   justify-content: space-between;
 }
 
-.projects-title {
-  font-family: "Roboto";
-  text-shadow: 2px 1px var(--tone1);
-  font-weight: 900;
+.home-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 20px 0 20px;
+}
+.MuiButton-root {
+  background-color: var(--tone2) !important;
+}
+
+.MuiButton-text {
+  color: var(--tone5) !important;
 }
