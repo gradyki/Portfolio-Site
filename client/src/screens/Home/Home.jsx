@@ -1,3 +1,5 @@
+import LandingCarousel from "../../components/LandingCarousel/LandingCarousel";
+
 export default function Home() {
-  return <div>Home Screen Test</div>;
+  return <LandingCarousel />;
 }
