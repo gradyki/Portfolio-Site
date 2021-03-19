@@ -9,7 +9,9 @@ export default function Nav() {
   return (
     <nav>
       <div className="logo">
-        <h3>Grady King</h3>
+        <Link to="/">
+          <h3>Grady King</h3>
+        </Link>
       </div>
 
       <ul className={toggleClasses ? "nav-links" : "nav-active"}>
@@ -17,7 +19,7 @@ export default function Nav() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/">About Me</Link>
+          <Link to="/about">About Me</Link>
         </li>
         <li>
           <Link to="/">Projects</Link>

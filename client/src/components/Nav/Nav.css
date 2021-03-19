@@ -10,6 +10,7 @@ nav {
   align-items: center;
   min-height: 8vh;
   background-color: var(--tone2);
+  border-bottom: 2px solid var(--tone1);
 }
 
 .logo {
@@ -17,6 +18,10 @@ nav {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 20px;
+}
+
+.logo a {
+  color: rgb(238, 234, 234);
 }
 
 .nav-links {

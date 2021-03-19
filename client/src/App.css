@@ -5,3 +5,7 @@
   --tone4: #90e0ef;
   --tone5: #caf0f8;
 }
+
+a {
+  text-decoration: none;
+}
