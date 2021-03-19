@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  background-color: var(--tone2);
+  height: 12vh;
+  width: 100%;
+  margin-top: 80px;
+  border-top: 3px solid var(--tone1);
+  justify-content: center;
+  align-items: center;
+}
+
+/* .links-containers {
+  margin-top: 20px;
+} */

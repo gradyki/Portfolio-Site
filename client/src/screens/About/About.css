@@ -8,3 +8,8 @@
   height: 60vh;
   border-radius: 10%;
 }
+
+.about-content {
+  display: flex;
+  margin: 0 25% 0 25%;
+}
