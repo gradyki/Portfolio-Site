@@ -7,9 +7,11 @@
 .me img {
   height: 60vh;
   border-radius: 10%;
+  box-shadow: 0 3px 5px 2px var(--tone2);
 }
 
 .about-content {
   display: flex;
   margin: 0 25% 0 25%;
+  font-weight: 700;
 }

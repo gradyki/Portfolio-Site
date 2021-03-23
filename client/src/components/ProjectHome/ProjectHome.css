@@ -26,3 +26,10 @@
 .MuiButton-text {
   color: var(--tone5) !important;
 }
+
+@media screen and (max-width: 770px) {
+  .projects-cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

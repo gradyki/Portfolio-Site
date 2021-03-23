@@ -55,12 +55,19 @@ export default function ProjectHome() {
                   post new courses, edit and delete coures.
                 </Typography>
                 <div className="home-buttons">
-                  <Button size="small" color="primary">
-                    See Code
-                  </Button>
-                  <Button size="small" color="primary">
-                    Visit Site
-                  </Button>
+                  <a href="https://github.com/gradyki/Skillz" target="_blank">
+                    <Button size="small" color="primary">
+                      See Code
+                    </Button>
+                  </a>
+                  <a
+                    href="https://laughing-einstein-b353ef.netlify.app/"
+                    target="_blank"
+                  >
+                    <Button size="small" color="primary">
+                      Visit Site
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </CardActionArea>
@@ -90,9 +97,14 @@ export default function ProjectHome() {
                   <Button size="small" color="primary">
                     See Code
                   </Button>
-                  <Button size="small" color="primary">
-                    Visit Site
-                  </Button>
+                  <a
+                    href="https://flamboyant-nightingale-ad12ec.netlify.app/"
+                    target="_blank"
+                  >
+                    <Button size="small" color="primary">
+                      Visit Site
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </CardActionArea>
@@ -122,9 +134,14 @@ export default function ProjectHome() {
                   <Button size="small" color="primary">
                     See Code
                   </Button>
-                  <Button size="small" color="primary">
-                    Visit Site
-                  </Button>
+                  <a
+                    href="https://stoic-williams-437bf3.netlify.app/"
+                    target="_blank"
+                  >
+                    <Button size="small" color="primary">
+                      Visit Site
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </CardActionArea>

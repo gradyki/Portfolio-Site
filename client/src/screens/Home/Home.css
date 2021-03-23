@@ -9,7 +9,17 @@
   border-bottom: 1px solid var(--tone1);
 }
 
-.home-img {
+.home-img1 {
   display: flex;
   justify-content: center;
+  margin: 0 25% 50px 25%;
+}
+
+@media screen and (max-width: 770px) {
+  .home-img1 {
+    display: none;
+  }
+  .home-projects-container {
+    margin-top: 50px;
+  }
 }

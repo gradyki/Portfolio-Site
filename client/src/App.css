@@ -5,6 +5,9 @@
   --tone4: #90e0ef;
   --tone5: #caf0f8;
 }
+body {
+  font-family: "Playfair Display";
+}
 
 a {
   text-decoration: none;
