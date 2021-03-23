@@ -22,7 +22,7 @@ export default function Nav() {
           <Link to="/about">About Me</Link>
         </li>
         <li>
-          <Link to="/">Projects</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
           <Link to="/">Contact</Link>

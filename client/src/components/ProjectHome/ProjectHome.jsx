@@ -10,7 +10,6 @@ import Button from "@material-ui/core/Button";
 import skillz from "../../assets/Skillz.png";
 import weather from "../../assets/Weather.png";
 import expenses from "../../assets/Expenses.png";
-import { shadows } from "@material-ui/system";
 
 const useStyles = makeStyles({
   root: {
@@ -131,9 +130,14 @@ export default function ProjectHome() {
                   table. All of the categories are sortable with onClick
                 </Typography>
                 <div className="home-buttons">
-                  <Button size="small" color="primary">
-                    See Code
-                  </Button>
+                  <a
+                    href="https://github.com/gradyki/Expense-Tracker-Site"
+                    target="_blank"
+                  >
+                    <Button size="small" color="primary">
+                      See Code
+                    </Button>
+                  </a>
                   <a
                     href="https://stoic-williams-437bf3.netlify.app/"
                     target="_blank"
