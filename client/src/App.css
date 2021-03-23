@@ -5,8 +5,10 @@
   --tone4: #90e0ef;
   --tone5: #caf0f8;
 }
+html,
 body {
   font-family: "Playfair Display";
+  overflow-x: hidden;
 }
 
 a {
