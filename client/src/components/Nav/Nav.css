@@ -66,6 +66,7 @@ nav {
     overflow-x: hidden;
   }
   .nav-links {
+    opacity: 0;
     position: absolute;
     right: 0px;
     height: 33%;
@@ -74,7 +75,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 1%;
     transform: translateX(100%);
     transition: transform 0.33s ease-in;
   }
@@ -96,7 +97,7 @@ nav {
     align-items: center;
     width: 33%;
     transform: translateX(0%);
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.33s ease-in-out;
   }
   .nav-active li {
     opacity: 1;
