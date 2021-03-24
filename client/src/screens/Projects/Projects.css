@@ -4,7 +4,14 @@
 }
 
 .projects-cards-container {
-  margin: 75px 50px 50px 50px;
+  margin: 50px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 770px) {
+  .projects-cards-container {
+    margin-top: 180px;
+  }
 }

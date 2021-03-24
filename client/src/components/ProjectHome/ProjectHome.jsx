@@ -93,9 +93,14 @@ export default function ProjectHome() {
                   location for current weather.
                 </Typography>
                 <div className="home-buttons">
-                  <Button size="small" color="primary">
-                    See Code
-                  </Button>
+                  <a
+                    href="https://github.com/gradyki/Weather-App"
+                    target="_blank"
+                  >
+                    <Button size="small" color="primary">
+                      See Code
+                    </Button>
+                  </a>
                   <a
                     href="https://flamboyant-nightingale-ad12ec.netlify.app/"
                     target="_blank"

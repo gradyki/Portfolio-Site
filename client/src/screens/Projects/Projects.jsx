@@ -28,9 +28,6 @@ export default function Projects() {
   return (
     <div className="projects-page">
       <div className="projects-section">
-        <div className="projects-title">
-          <h1>Projects</h1>
-        </div>
         <div className="projects-cards-container">
           <div className="skillz">
             <Card className={classes.root}>
@@ -96,14 +93,19 @@ export default function Projects() {
                     component="p"
                   >
                     This weather app is a React app using the weatherstack.com
-                    free api to gather current weather data. There is a built in
+                    api to gather current weather data. There is a built in
                     search bar at the top that will allow users to search any
                     location for current weather.
                   </Typography>
                   <div className="home-buttons">
-                    <Button size="small" color="primary">
-                      See Code
-                    </Button>
+                    <a
+                      href="https://github.com/gradyki/Weather-App"
+                      target="_blank"
+                    >
+                      <Button size="small" color="primary">
+                        See Code
+                      </Button>
+                    </a>
                     <a
                       href="https://flamboyant-nightingale-ad12ec.netlify.app/"
                       target="_blank"
