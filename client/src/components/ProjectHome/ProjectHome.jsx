@@ -10,6 +10,7 @@ import Button from "@material-ui/core/Button";
 import skillz from "../../assets/Skillz.png";
 import weather from "../../assets/Weather.png";
 import expenses from "../../assets/Expenses.png";
+import kgb from "../../assets/KGB.png";
 
 const useStyles = makeStyles({
   root: {
@@ -63,6 +64,45 @@ export default function ProjectHome() {
                     href="https://laughing-einstein-b353ef.netlify.app/"
                     target="_blank"
                   >
+                    <Button size="small" color="primary">
+                      Visit Site
+                    </Button>
+                  </a>
+                </div>
+              </CardContent>
+            </CardActionArea>
+            <CardActions></CardActions>
+          </Card>
+        </div>
+
+        <div className="kgb">
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardMedia
+                className={classes.media}
+                image={kgb}
+                title="kgb app"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Travel App
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  This mock travel site is built using the MERN stack. This was
+                  a group project where I was responsible for building the
+                  entire backend, completing the CRUD functionality, building
+                  the Data Grid, and setting up Auth using JWT.
+                </Typography>
+                <div className="home-buttons">
+                  <a
+                    href="https://github.com/Katiana-lee/kgbAdventures"
+                    target="_blank"
+                  >
+                    <Button size="small" color="primary">
+                      See Code
+                    </Button>
+                  </a>
+                  <a href="https://kgb-adventures.netlify.app/" target="_blank">
                     <Button size="small" color="primary">
                       Visit Site
                     </Button>
