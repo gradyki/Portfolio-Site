@@ -25,7 +25,7 @@ class LandingCarousel extends Component {
         <div className="carousel-title">
           <h1>Top Skills</h1>
         </div>
-        <Carousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={2000}>
+        <Carousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={5000}>
           {images.map((image) => (
             <div key={image.id} className="image-container">
               <img src={`${image.photo}`} id="carousel-imgs" />

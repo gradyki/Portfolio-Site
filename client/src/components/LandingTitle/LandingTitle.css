@@ -1,0 +1,11 @@
+.landing-title {
+  position: absolute;
+  display: flex;
+  color: rgb(238, 234, 234);
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 30px;
+  text-shadow: 2px 1px var(--tone2);
+}

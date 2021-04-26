@@ -15,6 +15,12 @@
   margin: 0 25% 50px 25%;
 }
 
+.title-container {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
 @media screen and (max-width: 770px) {
   .home-img1 {
     display: none;
