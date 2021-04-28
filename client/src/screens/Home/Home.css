@@ -15,17 +15,37 @@
   margin: 0 25% 50px 25%;
 }
 
+.home-img2 {
+  background-color: var(--tone1);
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+
 .title-container {
   position: relative;
   display: flex;
   align-items: flex-end;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 @media screen and (max-width: 770px) {
   .home-img1 {
     display: none;
   }
-  .home-projects-container {
-    margin-top: 50px;
+  .home-img2 {
+    justify-content: flex-start;
+  }
+  .projects-title {
+    margin: 0px;
+  }
+  .projects-cards-container {
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .home-img2 {
+    display: none;
   }
 }

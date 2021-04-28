@@ -14,6 +14,12 @@ export default function Home() {
         <img src={software} />
       </div>
 
+      <div className="home-img2">
+        <div className="title-container">
+          <LandingTitle />
+        </div>
+      </div>
+
       <div className="home-projects-container">
         <ProjectHome />
       </div>
