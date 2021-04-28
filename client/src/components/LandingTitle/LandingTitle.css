@@ -10,3 +10,9 @@
 
   width: 50vw;
 }
+
+@media screen and (max-width: 770px) {
+  .landing-title {
+    font-size: 15px;
+  }
+}
