@@ -8,10 +8,10 @@
   font-weight: 900;
 }
 
-.projects-cards-container {
+.home-projects-cards-container {
   margin: 50px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .home-buttons {
@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width: 770px) {
-  .projects-cards-container {
+  .home-projects-cards-container {
     display: flex;
     flex-direction: column;
   }

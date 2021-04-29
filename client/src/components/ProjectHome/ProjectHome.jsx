@@ -32,7 +32,7 @@ export default function ProjectHome() {
       <div className="projects-title">
         <h1>Projects</h1>
       </div>
-      <div className="projects-cards-container">
+      <div className="home-projects-cards-container">
         <div className="skillz">
           <Card className={classes.root}>
             <CardActionArea>
