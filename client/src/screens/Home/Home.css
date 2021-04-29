@@ -31,21 +31,11 @@
 
 @media screen and (max-width: 770px) {
   .home-img1 {
-    display: none;
+    height: 33vh;
+    margin: 0;
+    width: 100%;
   }
-  .home-img2 {
-    justify-content: flex-start;
-  }
-  .projects-title {
-    margin: 0px;
-  }
-  .projects-cards-container {
-    margin: 0px;
-  }
-}
-
-@media screen and (min-width: 770px) {
-  .home-img2 {
-    display: none;
+  .home-img1 img {
+    width: 100vw;
   }
 }
