@@ -42,11 +42,9 @@ export default function ProjectHome() {
                 title="Skillz App"
               />
               <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  component="h2"
-                ></Typography>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Skillz App
+                </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   Skills is a Full Stack/Full CRUD mock elearning platform with
                   full authentication. It is built with a Ruby on
@@ -54,7 +52,7 @@ export default function ProjectHome() {
                   to browse the site, but authenticated users are able to login,
                   post new courses, edit and delete coures.
                 </Typography>
-                <div className="home-buttons">
+                <div id="skillz-buttons">
                   <a href="https://github.com/gradyki/Skillz" target="_blank">
                     <Button size="small" color="primary">
                       See Code
